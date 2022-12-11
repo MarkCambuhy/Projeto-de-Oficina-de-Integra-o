@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: linear-gradient(to right,#DFDFDF, #F2F2F2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.header-logo a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: #088178;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #088178;
+}
+
+#navbar li a svg {
+    width: 32px;
+    height: 32px;
+}
+
+/* separar */
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h5 {
+    font-size: 16px;
+    color: #000;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* login */
+.box-login{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 450px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    background: #DFDFDF;
+    color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.box-login h2{
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: left;
+    font-size: 36px;
+    border-bottom: 3px solid #088178;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+}
+
+.ipunt-box{
+    width: 100%;
+    overflow: auto;
+    font-size: 22px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 2px solid #088178;
+    transition: 0.2s;
+}
+
+.ipunt-box:focus-within{
+    border-bottom: 2px solid #088178;
+}
+
+.ipunt-box i{
+    width: 28px;
+    float: left;
+    text-align: center;
+}
+.ipunt-box i svg {
+    color: #000;
+}
+
+.ipunt-box input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 85%;
+    float: left;
+}
+
+.submit-btn{
+    background: none;
+    width: 100%;
+    border: 2px solid #fff;
+    color: #252525;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.submit-btn a{
+    text-decoration: none;
+    color: #252525;
+}
+
+
+.submit-btn:hover{
+    background: #088178;
+    color: #fff;
+}
+
+span{
+    margin-top: 20px;
+}
+
+span a{
+    color: #000;
+}
